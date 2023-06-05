@@ -1,0 +1,158 @@
+.filter_info {
+  font-size: 1.5rem;
+  color: var(--text);
+  position: relative;
+}
+.filter_info label {
+  margin-left: 6px;
+}
+.filter_title {
+  font-size: 2.3rem;
+  color: var(--text);
+  margin-bottom: 1.2rem;
+  position: relative;
+}
+.filter_title::after {
+  content: "";
+  width: 100%;
+  height: 0.2rem;
+  background-color: #b9b4c5;
+  bottom: -1rem;
+  left: 0;
+  position: absolute;
+}
+.filter_subtitle_cor {
+  font-size: 1.5rem;
+  color: var(--text);
+  padding: 1.2rem 0 0.8rem 0;
+  position: relative;
+}
+.filter_subtitle_cor::after {
+  content: "";
+  width: 100%;
+  height: 0.2rem;
+  background-color: #b9b4c5;
+  bottom: -9rem;
+  left: 0;
+  position: absolute;
+}
+.preto {
+  background-color: black;
+}
+.amarelo {
+  background-color: yellow;
+}
+.vermelho {
+  background-color: red;
+}
+.cinza {
+  background-color: grey;
+}
+.roxo {
+  background-color: rgb(146, 8, 180);
+}
+.rosa {
+  background-color: rgb(236, 45, 220);
+}
+.verde {
+  background-color: green;
+}
+.azul {
+  background-color: blue;
+}
+.cores_line {
+  background-color: transparent;
+  gap: 1rem;
+  display: flex;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+.cor {
+  border-radius: 0.2rem;
+  height: 3rem;
+  width: 3rem;
+  transition: transform 0.3s;
+}
+.cor:hover {
+  transform: scale(1.1);
+}
+.cor:active {
+  transform: scale(0.95);
+}
+.filter_subtitle {
+  font-size: 1.5rem;
+  color: var(--text);
+  padding: 3.2rem 0 0.8rem 0;
+  position: relative;
+}
+
+.btn_tam button {
+  height: 3rem;
+  width: 3rem;
+  background-color: transparent;
+  border: 1px solid #b9b4c5;
+  border-radius: 0.2rem;
+  transition: transform 0.3s;
+}
+.btn_tam {
+  display: flex;
+  gap: 1rem;
+}
+.btn_tam button:hover {
+  transform: scale(1.1);
+}
+.btn_tam button:active {
+  transform: scale(0.95);
+}
+.aside hr {
+  width: 100%;
+  height: 0.2rem;
+  background-color: #b9b4c5;
+  margin-top: 2rem;
+}
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 0.7rem;
+  border-radius: 0.5rem;
+  background: #b9b4c5;
+  outline: none;
+  opacity: 1;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 50%;
+  background: #1bce74;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 50%;
+  background: #1bce74;
+  cursor: pointer;
+}
+
+.filter_valor > .row {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  padding-bottom: 0;
+}
+
+.filter_valor > .row > span {
+  font-size: 1.3rem;
+}
+
+.filter_subtitle {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}

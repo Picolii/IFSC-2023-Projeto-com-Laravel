@@ -1,0 +1,85 @@
+.content {
+  padding-top: 7rem;
+  grid-template-columns: auto 50rem;
+  grid-template-areas: "CT AS";
+  background-color: #fff;
+}
+.container {
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+.content img {
+  width: 100%;
+}
+.aside {
+  background-color: #fff;
+  color: var(--text);
+  padding: 1.5rem 0 0 4rem;
+}
+.aside h1 {
+  font-size: 3.6rem;
+  font-style: italic;
+  font-weight: 600;
+  max-width: 40rem;
+}
+.aside h3 {
+  margin-top: 3rem;
+  font-style: italic;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+.aside span {
+  font-size: 1.5rem;
+}
+.aside h4 {
+  padding: 2rem 0 1.2rem 0;
+}
+.btn_tam button {
+  height: 3rem;
+  width: 5.2rem;
+  background-color: transparent;
+  border: 1px solid #b9b4c5;
+  border-radius: 0.2rem;
+  transition: transform 0.3s;
+}
+.btn_tam {
+  display: flex;
+  gap: 1rem;
+}
+.btn_tam button:hover {
+  transform: scale(1.1);
+}
+.btn_tam button:active {
+  transform: scale(0.95);
+}
+.btn_carrin {
+  margin-top: 3.5rem;
+  background-color: rgb(24, 23, 23);
+  color: white;
+  width: 40rem;
+  height: 5rem;
+  transition: transform 0.3s;
+}
+.btn_carrin:hover {
+  transform: scale(1.05);
+}
+.desc_prod h3 {
+  margin-bottom: 0;
+  font-size: 2.4rem;
+}
+.desc_prod span {
+  font-size: 1.3rem;
+}
+.desc_prod span {
+  font-style: italic;
+}
+.desc_prod li {
+  font-style: italic;
+}
+#qtd {
+  border: 1px solid #b9b4c5;
+  height: 3rem;
+  width: 5.2rem;
+  padding-left: 5px;
+}

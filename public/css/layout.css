@@ -1,0 +1,34 @@
+.layout {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto 10rem;
+  grid-template-areas:
+    "CT"
+    "FT";
+  min-height: 100vh;
+  width: 100vw;
+  background-color: var(--secondary);
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 25rem auto;
+  grid-template-rows: auto;
+  grid-template-areas: "AS CT";
+  height: 100%;
+  width: 100vw;
+  background-color: var(--primary);
+}
+
+.aside {
+  grid-area: AS;
+  background-color: rgb(230, 227, 227);
+  border-right: 1px solid var(--terciary);
+  padding: 10rem 1rem 1rem 2.5rem;
+}
+
+.container {
+  grid-area: CT;
+  padding: 8rem 14rem 0 10rem;
+}
+
